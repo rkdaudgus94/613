@@ -11,8 +11,8 @@ for i in range(len(x)-1,-1,-1):
         break
 
 
-def listJoin(z):
-    result = ''.join(i for i in z)
+def listJoin(index):
+    result = ''.join(i for i in index)
     return result
 
 print(listJoin(x)+listJoin(y))
